@@ -50,9 +50,11 @@ class _MyHomePageState extends State<MyHomePage> {
     }
 
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('WebView Test'),
-      // ),
+      appBar: AppBar(
+        title: null,
+        toolbarHeight: 10,
+        backgroundColor: Color.fromARGB(0, 0, 0, 0),
+      ),
       // body: RaisedButton(
       //   child: Text('点击按钮'),
       //   onPressed: () {
